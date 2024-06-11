@@ -4,7 +4,7 @@
     <div class="container">
 
         <!-- blog svg -->
-        <img class="illustration" :src="cardInfo?.illustration" />
+        <img class="illustration" :src="cardInfo?.illustration" alt="Blog Illustration" />
 
         <!-- topic tag -->
         <div class="topic-container">
@@ -27,7 +27,7 @@
 
         <!-- author -->
         <div class="author-container">
-            <img class="avatar" :src="cardInfo?.avatar"/>
+            <img class="avatar" :src="cardInfo?.avatar" alt="Author Avatar"/>
             <span class="author-name">{{ cardInfo?.authorName }}</span>
         </div>
     </div>
