@@ -32,7 +32,7 @@
 
     <footer role="contentinfo">
         <span>
-            Frontend Mentor Challenge <a :href="solutionUrl" target="_blank">Social Links Profile</a>.
+            Frontend Mentor Challenge <a :href="solutionUrl" target="_blank">Blog Preview Card</a>.
             <span class="sr-only">(opens link to new tab)</span>
         </span>
         <br />
