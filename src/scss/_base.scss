@@ -1,0 +1,42 @@
+@use './variables' as *;
+@use './functions' as *;
+
+:root {
+  font-family: $figtree-font;
+  font-weight: 400;
+  color: #ffffffde;
+  background-color: $bg-color;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  margin: convertPxToRem(20px);
+  display: flex;
+  place-items: center;
+  min-width: convertPxToRem(320px);
+  min-height: 100vh;
+}
+
+#app {
+  max-width: convertPxToRem(1280px);
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.sr-only {
+  position: absolute;
+  width: convertPxToRem(1px);
+  height: convertPxToRem(1px);
+  padding: 0;
+  margin: convertPxToRem(-1px);
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+
