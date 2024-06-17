@@ -1,9 +1,47 @@
-# Vue 3 + TypeScript + Vite
+# Frontend Mentor - QR code component solution
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+This is a solution to the [Blog preview card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-## Recommended Setup
+## Table of contents
 
-- [VS Code](https://code.visualstudio.com/) + [Vue - Official](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (previously Volar) and disable Vetur
+- [Overview](#overview)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+  - [Built with](#built-with)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
 
-- Use [vue-tsc](https://github.com/vuejs/language-tools/tree/master/packages/tsc) for performing the same type checking from the command line, or for generating d.ts files for SFCs.
+**Note: Delete this note and update the table of contents based on what sections you keep.**
+
+## Overview
+
+### The challenge
+
+Users should be able to:
+
+- See hover and focus states for all interactive elements on the page
+
+### Screenshot
+
+![Screenshot of solution](./screenshots/screenshot.jpg)
+![Screenshot of solution with active link](./screenshots/screenshot-active.jpg)
+
+### Links
+
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/blog-preview-card-vue-component-written-in-typescript-gjnTDKPrCo)
+- Live Site URL: [Live Site](https://www.frontendmentor.io/solutions/blog-preview-card-vue-component-written-in-typescript-gjnTDKPrCo)
+
+
+### Built with
+
+- CSS custom properties
+- [Vite](https://vitejs.dev/) - Frontend dev tool
+- [Vue](https://vuejs.org/) - JS Framework
+
+
+### Useful resources
+
+- [Google Fonts](https://fonts.google.com/) - Useful to find free fonts for challenges
+
+## Author
+- Frontend Mentor - [@Ryoliveira](https://www.frontendmentor.io/profile/Ryoliveira)
