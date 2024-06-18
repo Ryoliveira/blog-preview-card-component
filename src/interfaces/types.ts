@@ -1,6 +1,7 @@
 export interface BlogCardInfo {
     illustration: string,
-    tag: string,
+    blogUrl: string,
+    category: string,
     publishDate: string,
     title: string,
     description: string,

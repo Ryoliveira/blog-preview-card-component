@@ -11,7 +11,8 @@ import avatar from './assets/images/image-avatar.webp';
 
 const cardInfo: BlogCardInfo = {
   illustration: illustrationAricle,
-  tag: 'Learning',
+  blogUrl: '#',
+  category: 'Learning',
   publishDate: 'Published 21 Dec 2023',
   title: 'HTML & CSS foundations',
   description: 'These languages are the backbone of every website, defining structure, content, and presentation.',

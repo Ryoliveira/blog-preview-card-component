@@ -3,32 +3,40 @@
     <h1 class="sr-only">Blog Preview Card Component</h1>
 
     <!-- container -->
-    <main class="container">
+    <div class="container">
 
         <h2 class="sr-only">Blog Preview Card Details</h2>
+        <main>
+            <!-- blog svg -->
+            <img class="illustration" :src="cardInfo?.illustration"
+                alt="Various shapes and lines with a html closing tag and open curly braces" />
 
-        <!-- blog svg -->
-        <img class="illustration" :src="cardInfo?.illustration" alt="Blog card main illustration" />
+            <!-- category tag -->
+            <a href="#" class="category-tag">
+                {{ cardInfo?.category }}
+                <span class="sr-only">(Navigates to new page)</span>
+            </a>
 
-        <!-- category tag -->
-        <p class="category-tag" aria-label="category">{{ cardInfo?.tag }}</p>
+            <!-- publish date -->
+            <p class="publish-date">{{ cardInfo?.publishDate }}</p>
 
-        <!-- publish date -->
-        <p class="publish-date" aria-label="publish date">{{ cardInfo?.publishDate }}</p>
+            <!-- title -->
+            <a class="title" href="#">
+                {{ cardInfo?.title }}
+                <span class="sr-only">(Navigates to new page)</span>
+            </a>
 
-        <!-- title -->
-        <h2 class="title">{{ cardInfo?.title }}</h2>
+            <!-- description -->
+            <p class="description-text">{{ cardInfo?.description }}</p>
 
-        <!-- description -->
-        <p class="description-text">{{ cardInfo?.description }}</p>
-
-        <!-- author -->
-        <div class="author-container" aria-label="Author information">
-            <img class="avatar" :src="cardInfo?.avatar" alt="Author Avatar" />
-            <span class="author-name">{{ cardInfo?.authorName }}</span>
-        </div>
-
-    </main>
+            <!-- author -->
+            <div class="author-container">
+                <img class="avatar" :src="cardInfo?.avatar"
+                    alt="Head shot of caucasian man smiling with brown hair while wearing a light blue shirt and looking off to the side" />
+                <span class="author-name">{{ cardInfo?.authorName }}</span>
+            </div>
+        </main>
+    </div>
 
     <footer role="contentinfo">
         <span>

@@ -8,8 +8,10 @@
   background-color: $bg-color;
 }
 
-a {
+a, 
+a:visited {
   text-decoration: none;
+  color: inherit;
 }
 
 body {
